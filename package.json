@@ -1,0 +1,22 @@
+{
+  "name": "affordmed-url-shortener",
+  "version": "1.0.0",
+  "description": "AffordMed URL Shortener Test Submission with Logging Middleware",
+  "scripts": {
+    "install:all": "npm run install:middleware && npm run install:frontend",
+    "install:middleware": "cd logging-middleware && npm install",
+    "install:frontend": "cd frontend-test-submission && npm install",
+    "build:middleware": "cd logging-middleware && npm run build",
+    "build:all": "npm run build:middleware",
+    "dev": "cd frontend-test-submission && npm run dev",
+    "build:frontend": "cd frontend-test-submission && npm run build",
+    "clean": "cd logging-middleware && rm -rf dist && cd ../frontend-test-submission && rm -rf dist"
+  },
+  "keywords": ["affordmed", "url-shortener", "react", "typescript", "logging"],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "logging-middleware",
+    "frontend-test-submission"
+  ]
+}

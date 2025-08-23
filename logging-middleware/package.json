@@ -1,0 +1,17 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Reusable TypeScript logging middleware for AffordMed evaluation service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["logging", "middleware", "typescript"],
+  "author": "",
+  "license": "MIT"
+}
